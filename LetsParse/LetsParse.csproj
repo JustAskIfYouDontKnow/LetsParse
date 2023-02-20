@@ -46,10 +46,17 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Category\Category.cs" />
         <Compile Include="Company\CompanyType.cs" />
         <Compile Include="Company\Denticom.cs" />
         <Compile Include="Company\GreenDent.cs" />
         <Compile Include="Company\ICompany.cs" />
+        <Compile Include="Parser\Parser.cs" />
+        <Compile Include="Parser\SaveResults.cs" />
+        <Compile Include="Parser\TryParseCategory.cs" />
+        <Compile Include="Parser\TryParseMaxPage.cs" />
+        <Compile Include="Parser\TryParseProducts.cs" />
+        <Compile Include="Product\Product.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
